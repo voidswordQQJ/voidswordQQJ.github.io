@@ -1,10 +1,11 @@
 ---
 title: 泰拉瑞亚 Tmodloader 开服记录
-date: 2021-06-27 15:08:58
 categories: 记录
 tags:
   - 泰拉瑞亚
   - 服务端
+abbrlink: 6fcf8e00
+date: 2021-06-27 15:08:58
 ---
 
 这篇文章粗略地描述了在不使用 Steam 平台的情况下，仅使用 Tmodloader Server 搭建服务端。
