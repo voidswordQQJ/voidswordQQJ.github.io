@@ -72,4 +72,48 @@
         <tag>服务端</tag>
       </tags>
   </entry>
+  <entry>
+    <title>泰拉瑞亚 Tmodloader 开服记录</title>
+    <url>/posts/6fcf8e00/</url>
+    <content><![CDATA[<p>这篇文章粗略地描述了在不使用 Steam 平台的情况下，仅使用 Tmodloader Server 搭建服务端。</p>
+<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><p>本次使用的环境如下：</p>
+<p><strong>操作系统</strong></p>
+<ul>
+<li>Windows 10 LTSC 企业版</li>
+<li>登录账号 Administrator</li>
+</ul>
+<p><strong>硬件配置</strong></p>
+<ul>
+<li>Genuine Intel(R) CPU 0000 @2.4Ghz</li>
+<li>16.0 GB RAM</li>
+<li>KINGSTON SA400S37120G 120GB</li>
+</ul>
+<p><strong>软件程序</strong></p>
+<ul>
+<li>tModLoader.Windows.v0.11.8.4</li>
+<li>Sakura Frp 启动器</li>
+<li>fatedier/frp Github 自建 Frp</li>
+<li>灾厄模组整合包（共 19 个模组）</li>
+</ul>
+<p><strong>运行库</strong></p>
+<ul>
+<li>dotNetFx45_Full_setup</li>
+<li>xnafx40_redist</li>
+</ul>
+<h2 id="创建过程"><a href="#创建过程" class="headerlink" title="创建过程"></a>创建过程</h2><p>首先解包下载的 Tmodloader 压缩包文件至任意目录下，打开解压文件夹并运行 tModLoaderServer.exe 以确保程序可以正常运行。</p>
+<h3 id="安装模组"><a href="#安装模组" class="headerlink" title="安装模组"></a>安装模组</h3><p>确认运行后，可以选择将需要安装的模组移动至泰拉瑞亚的模组目录中，默认路径为当前操作用户的文档下的 My Games 目录中，具体位置请自行寻找。</p>
+<p>在模组移动完成后，重新启动服务端，并按照命令行窗口中显示的方法打开模组管理，选择启动所有并保存离开，这时服务端会初始化加载启动的模组。</p>
+<h3 id="创建地图"><a href="#创建地图" class="headerlink" title="创建地图"></a>创建地图</h3><p>地图可以通过服务端的面板创建，或者将已有的地图存档复制至泰拉瑞亚的地图储存文件夹中。</p>
+<h3 id="外网访问"><a href="#外网访问" class="headerlink" title="外网访问"></a>外网访问</h3><p>虽然服务端已经可以被本地局域网连接，但是外网访问仍需要端口转发或者端口映射的支持，这里使用了樱花映射和一个自建 Frp 服务，有条件的可以考虑转用路由器的端口转发功能。</p>
+<h3 id="启动配置文件"><a href="#启动配置文件" class="headerlink" title="启动配置文件"></a>启动配置文件</h3><p>启动配置文件，也就是 <code>serverconfig.txt</code> 文件，通过改写该文件的方式，可以简化开服过程，达到一键开服的目的，但是需要人为对参数配置。这里不做过多赘述，请访问<a href="https://terraria.fandom.com/zh/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8?variant=zh">泰拉瑞亚中文Wiki</a>获得相关帮助。</p>
+<h2 id="注意细节"><a href="#注意细节" class="headerlink" title="注意细节"></a>注意细节</h2><p>当出现服务端打开无反应可以尝试下载运行库安装，如果依旧不行建议百度或谷歌。</p>
+]]></content>
+      <categories>
+        <category>记录</category>
+      </categories>
+      <tags>
+        <tag>服务端</tag>
+        <tag>泰拉瑞亚</tag>
+      </tags>
+  </entry>
 </search>
